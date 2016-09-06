@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <title> AL </title>
         <link rel="stylesheet" href="css/full_page.css">
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="script/script.js"></script>
     </head>
     <body>
         <div class="wrapper">
@@ -11,11 +13,11 @@
             <div class="header">
                 <nav class="top_menu">
                     <ul>
-                        <li><a href="#"></a><span class="top_hover"></span>Home</li>
-                        <li><a href="#"></a><span class="top_hover"></span>About</li>
-                        <li><a href="#"></a><span class="top_hover"></span>Projects</li>
-                        <li><a href="#"></a><span class="top_hover"></span>Servises</li>
-                        <li><a href="#"></a><span class="top_hover"></span>Contact</li>
+                        <li><a class="scroll" href="#row">Home</a></li>
+                        <li><a class="scroll" href="#about">About</a></li>
+                        <li>Projects</li>
+                        <li>Servises</li>
+                        <li>Contact</li>
                     </ul>
                 </nav>
             </div>
@@ -39,7 +41,7 @@
                                <li>CSS3 30%</li>
                                <li>javascript 15%</li>
                         </ul>
-                        <h2>My certifications</h2>
+                          <h2>My certifications</h2>
                             <ul>
                                 <li>SoftServe: HTML,CSS,JavaScript fundamentals</li>
                                 <li>Next certificstions</li>
@@ -63,14 +65,20 @@
                     </div>
                     <div class="contact">
                         <h1>Contact</h1>
-                        <p>Get in touch via contact form or email me directly. I will get back to you as soon as possible.</p>
-                            <form>
-                                
+                        <p>Get in touch via contact form or email me directly. I will get back to you as soon as possible.</p
+                            <form action="https://formspree.io/aleshgugag@gmail.com"
+                                  method="POST">
+                                <input type="text" name="name" placeholder="Your name" required><br>
+                                <input type="email" name="email" placeholder="Your e-mail" required><br>
+                                <textarea name="message" placeholder="Tell me what you want" required></textarea><br>
+                                <button type="submit">
+                                  <b>Send</b>
+                                </button>
                             </form>
                     </div>
             <div class="footer">
-                    <a href="https://www.facebook.com/laobaby" target="_blank">My Facebook</a><br>
-                    Copyright Andrii Leshchyshyn
+                    <p><a href="https://www.facebook.com/laobaby" target="_blank">My Facebook</a></p><br>
+                    <p>Copyright Andrii Leshchyshyn</p>
             </div>
             
         </div>
