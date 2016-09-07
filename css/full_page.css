@@ -20,16 +20,24 @@ body {
     margin-top:0;
 }
 h1 {
+    margin-top: 0;
     text-align: center;
+    padding-top: 20px;
 }
 h2 {
     text-align: center;
 }
 p {
+    margin-top: 0;
     margin-left: 20px;
+    padding-top: 20px;
 }
+ul {
+    margin-bottom: 0;
+}
+
 .header {
-    background: RGB(99,181,155);
+    background-image: linear-gradient(45deg, #2E3192, #1BFFFF);
     height: 120px;
 }
 .header ul {
@@ -42,9 +50,8 @@ p {
     display:inline;
     font-size: 27px;
     margin-left: 30px;
-  
-
 }
+
 .content {
     background: RGB(227,227,227);
     min-height: 500px;
@@ -60,23 +67,30 @@ p {
 
 .content p {
     text-align:center;
-    margin-top:50px;
+    margin-top:60px;
 }
 .about_me {
     margin-top: 0;
-    background-image: linear-gradient(45deg, #2E3192, #1BFFFF);
-    min-height:350px;
-    /*background: url('fon/green_full.jpg'); /*не працює*/
+    min-height:500px;
+    background-image: url("../fon/bambuk.jpg");
+    color:white;
+}
+.about_me p {
+    color: white;
+}
+.about_me ul {
+    color:white;
 }
 
 .my_project {
-    min-height:300px;
-    background-image: linear-gradient(60deg, #00A8C5, #FFFF7E)
+    min-height:500px;
+   /* background-image: linear-gradient(60deg, #00A8C5, #FFFF7E)*/
+   background-image: url("../fon/city.jpg"); /* не працює */
    
 }
 
 .contact {
-    min-height:200px;
+    min-height:500px;
     background-image: linear-gradient(45deg, #4F00BC,#29ABE2)
     
 }
@@ -88,4 +102,5 @@ p {
 
 .footer p {
     text-align: center;
+    padding-top: 20px;
 }
