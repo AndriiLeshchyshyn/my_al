@@ -82,7 +82,7 @@ ul {
     color:white;
 }
 
-.my_project {
+.my_projects {
     min-height:500px;
    /* background-image: linear-gradient(60deg, #00A8C5, #FFFF7E)*/
    background-image: url("../fon/city.jpg"); /* не працює */
