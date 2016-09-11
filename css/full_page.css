@@ -187,3 +187,17 @@ input[type=submit]:active {
     padding-top: 10px;
 }
 
+#totop{
+    position:fixed;
+    font-size:20px;
+    bottom:20px;
+    left:20px;
+    color: red;
+    
+}
+
+
+
+/* каруселька */
+
+
