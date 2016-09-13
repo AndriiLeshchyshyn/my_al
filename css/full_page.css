@@ -188,7 +188,7 @@ input[type=submit]:active {
 #totop{
     z-index: 4;
     position:fixed;
-    font-size:20px;
+    font-size:40px;
     bottom:40px;
     left:40px;
     color: red;
