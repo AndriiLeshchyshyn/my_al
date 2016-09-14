@@ -23,3 +23,11 @@ $(document).on("click", ".slider .nav span", function() { // slider click naviga
  sliderJS(obj, sl); // слайдим
  return false;
 });
+
+
+jQuery( window ).scroll(function() {
+    var pos = jQuery( window ).scrollTop() / 2;
+    jQuery('body').css({backgroundPosition: 'left -' + pos/2 + 'px'});
+});
+
+

@@ -87,17 +87,22 @@ ul {
     text-align:center;
     margin-top:100px;
 }
+
+/* паралакс */
+
+
+
 .about_me {
     margin-top: 0;
     min-height:600px;
-    background-image: url("../fon/bambuk.jpg");
-    color:white;
+    background: url("../fon/paralax.jpg") fixed; 
+    color:blue;
 }
 .about_me p {
-    color: white;
+    color: blue;
 }
 .about_me ul {
-    color:white;
+    color:blue;
 }
 
 .my_projects {
