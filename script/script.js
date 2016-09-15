@@ -1,4 +1,4 @@
-$(document).ready(function() {
+ $(document).ready(function() {
  $(".slider").each(function () { // обрабатываем каждый слайдер
   var obj = $(this);
   $(obj).append("<div class='nav'></div>");
@@ -22,7 +22,7 @@ $(document).on("click", ".slider .nav span", function() { // slider click naviga
  var obj = $(this).attr("rel"); // узнаем его номер
  sliderJS(obj, sl); // слайдим
  return false;
-});
+}); 
 
 
 jQuery( window ).scroll(function() {
